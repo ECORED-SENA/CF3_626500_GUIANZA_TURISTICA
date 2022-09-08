@@ -2,14 +2,13 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 10%
+    right: 10%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
+    top: 60%
     right: 30%
-
 
 @keyframes float1
   0%
@@ -17,3 +16,47 @@
 
   100%
     transform: translateY(0px)
+
+.banner-principal__info
+  background-image: url("../assets/curso/portada/banner-principal-decorativo-4.png"), url("../assets/curso/portada/banner-principal-decorativo-3.png")
+  align-self: stretch
+  background-repeat: no-repeat
+  background-position: 0% 5%, 90% 90%
+  background-size: 20%, 30%
+  animation: Flitp1 6s ease infinite
+
+@keyframes Flitp1
+  0%
+    background-image: url("../assets/curso/portada/banner-principal-decorativo-4.png"), url("../assets/curso/portada/banner-principal-decorativo-3.png")
+  50%
+    background-image: url("../assets/curso/portada/banner-principal-decorativo-4.png"), url("../assets/curso/portada/banner-principal-decorativo-3.png")
+    background-position: 5% 5%, 100% 90%
+  100%
+    background-image: url("../assets/curso/portada/banner-principal-decorativo-4.png"), url("../assets/curso/portada/banner-principal-decorativo-3.png")
+
+.banner-principal__img
+  width: 35%
+  padding-bottom: 0px !important
+
+.titulo-principal.color-acento-contenido .titulo-principal__numero span
+  color: white !important
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #D2DDCE
+  color: #12263F
+
+.linea-tiempo-d.color-primario .linea-tiempo-d__item--selected .linea-tiempo-d__item__content
+  background-color: #D2DDCE
+
+.tarjeta-avatar-b__img
+  min-width: 10%
+  left: -5%
+
+.tarjeta--verde
+  background-color: #DBE4D8
+
+@media screen and ( max-width: 992px )
+
+  .tarjeta-avatar-b__img
+    min-width: 13%
+    left: 0%
