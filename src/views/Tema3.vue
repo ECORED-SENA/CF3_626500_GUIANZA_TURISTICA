@@ -64,6 +64,162 @@
         p Los guías de turismo son, además, fuentes de información para turistas, viajeros y clientes en general. En ese sentido, es importante enterar a los usuarios sobre las normas, leyes y disposiciones legales que existen, sobre su servicio ofrecido o sobre el servicio contratado.
     .cajon.color-primario.p-4.mb-5
       p.mb-0 Pero no solo se debe conocer la ley, y sus probables cambios permanentes para informar u orientar a los clientes sino, desde luego, para desarrollar de manera efectiva, segura, informada y suficiente, todas las actividades del sector.
+    .row.mb-5
+      .col-lg-3
+        .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img2.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5
+              h3 1931: Primera norma de turismo
+              p Colombia elabora la primera norma sobre turismo en 1931, en el Gobierno de Enrique Olaya Herrera, a través de la Ley 86 de 1931 que crea el Servicio Oficial de Turismo, cuyo propósito principal era el de recaudar el impuesto al turismo del 5% sobre la estadía de los visitantes entrantes al país.
+      .col-lg-3
+        .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img3.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5
+              h3 1968: Corporación Nacional de Turismo
+              p Con el tiempo se creó el ente de economía mixta que regularía todo el servicio hotelero y derivado de él; se creó la Corporación Nacional de Turismo (CNT), por medio del Decreto-Ley 2700 de 1968 y la Ley 60 de 1968. Esta corporación realizó un trabajo pertinente que ayudó al desarrollo de la actividad turística en el país.
+      .col-lg-3
+        .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img4.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5
+              h3 1991: Derecho constitucional
+              p Adicionalmente la Constitución Política de 1991 menciona el turismo en el artículo 52, pues los colombianos tienen este derecho social y económico, dada su contribución al desarrollo integral en el aprovechamiento del tiempo libre y en la revalorización de la identidad cultural de las comunidades.
+      .col-lg-3
+        .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img5.svg')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5
+              h3 1996: Ley General del Turismo
+              p Con esta se creó el Viceministerio de Turismo, que sustituyó a la CNT, y amplió todas sus funciones, pues, se encargó de todos los prestadores de servicios turísticos del país, además de reglamentar toda la actividad hasta nuestros días.
+    p.mb-5 Entre otros, la Ley General del Turismo fortaleció los siguientes aspectos:
+    .row.justify-content-center.mb-5
+      .col-lg-8
+        PasosA.color-acento-contenido(tipo="n")
+          .row
+            .col-12
+              p Creó incentivos tributarios para el fomento de la actividad turística, Fondo de promoción turística, Corporación Nacional de Turismo, Registro Nacional de Turismo, derechos y obligaciones de los usuarios, control y sanciones.
+          .row
+            .col-12
+              p Dictar disposiciones sobre el ecoturismo, etnoturismo, agroturismo, acuaturismo y turismo metropolitano; turismo de interés social.
+          .row
+            .col-12
+              p Establecer que los concejos distritales o municipales determinarán las zonas de desarrollo turístico prioritario.
+          .row
+            .col-12
+              p Crear la división de Policía de Turismo dentro de la Dirección de Servicios Especializados de la Policía Nacional.
+          .row
+            .col-12
+              p Define los Prestadores de Servicios Turísticos (PST) en particular, establecimientos hoteleros o de hospedaje, agencias de viajes y de turismo, transportadores de pasajeros, establecimientos de gastronomía, bares y negocios similares, establecimientos de arrendamiento de vehículos, empresas captadoras de ahorro para viajes, guías de turismo, sistema de tiempo compartido, operadores profesionales de congresos, ferias y convenciones, círculos metropolitanos turísticos.
+    .row.justify-content-center
+      .col-lg-8
+        .tarjeta.color-primario.p-3
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-2
+              img(src="@/assets/curso/tema3/img6.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 Otras leyes de turismo
+                  p.text-small Para conocer un poco más sobre otras leyes que orientan las acciones del sector turístico en Colombia, explore el anexo.
+                .col-sm-auto
+                  a.boton.color-secundario(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+    Separador
+    #t_3_2
+    .titulo-segundo.color-acento-contenido
+      h2 3.2 Políticas nacionales de turismo
+    p El objetivo general de una política nacional es procurar el crecimiento en cantidad, calidad y permanencia, de los destinos turísticos; en Colombia, el Viceministerio de Turismo elabora las políticas concernientes al turismo.
+    p.mb-5 Las siguientes son las políticas nacionales de turismo vigentes, elaboradas por el Ministerio de Comercio, Industria y Turismo de Colombia:
+    SlyderB(:datos="datosSlyder")
+    Separador
+    #t_3_3
+    .titulo-segundo.color-acento-contenido
+      h2 3.3 Prevención de la Explotación Sexual Niños, Niñas y Adolescentes - Escnna
+    p.mb-5 El turismo, como actividad económica de importancia, pone sobre el escenario un fuerte impacto positivo por generar divisas, empleos y ayudar a la balanza de pagos y al Producto Interno Bruto (PIB). Sin embargo, se debe admitir que también produce impactos negativos importantes, como la huella de carbono o fenómenos como la prostitución, que llega de la mano de los desarrollos turísticos y la explotación sexual de niños y adolescentes.
+    .cajon.color-primario.p-4.mb-5
+      p.mb-0 La explotación sexual de la niñez y adolescencia no es un fenómeno exclusivo de Colombia, motivo por el cual a nivel mundial se comenzó a trabajar para contrarrestar este impacto negativo ya que, además de tener connotaciones éticas y sociales, también lo tiene en el aspecto económico.
+    p.mb-5 Algunos hechos importantes alrededor de la Explotación Sexual de Niños, Niñas y Adolescentes (Escnna), son:
+    .row.mb-5
+      .col-lg.m-2.p-4.bg-color1
+        .row.justify-content-center
+          .col-6.mb-4
+            figure
+              img(src='@/assets/curso/tema3/img1.png')
+          .col-12
+            p.text-white.text-center 1996. En Suecia se realizó el Primer Congreso Mundial contra la Explotación Sexual Comercial de Niñas, Niños y Adolescentes - Escnna.
+      .col-lg.m-2.p-4.bg-color2
+        .row.justify-content-center
+          .col-6.mb-4
+            figure
+              img(src='@/assets/curso/tema3/img2.png')
+          .col-12
+            p.text-white.text-center Ley 679 de 2001 (agosto 3) por medio de la cual se expide un estatuto para prevenir y contrarrestar la explotación, la pornografía y el turismo sexual con menores.
+      .col-lg.m-2.p-4.bg-color3
+        .row.justify-content-center
+          .col-6.mb-4
+            figure
+              img(src='@/assets/curso/tema3/img3.png')
+          .col-12
+            p.text-white.text-center Constitución Nacional de 1991. Artículo 44. Son derechos fundamentales de los niños: la vida, la integridad física, la salud y la seguridad social, la alimentación equilibrada, su nombre y nacionalidad, tener una familia y no ser separados de ella, el cuidado y amor, la educación y la cultura, la recreación y la libre expresión de su opinión.
+    .row.justify-content-center.mb-5
+      .col-auto.mb-4.mb-lg-0
+        a.boton.color-acento-contenido.indicador__container(@click="modal1 = true")
+          span.text-center ¡Escnna!
+          .indicador--click(v-if="mostrarIndicador")
+      .col-auto.mb-4.mb-lg-0
+        a.boton.color-acento-contenido.indicador__container(@click="modal2 = true")
+          span.text-center ¡Importante!
+          .indicador--click(v-if="mostrarIndicador")
+      .col-auto
+        a.boton.color-acento-contenido.indicador__container(@click="modal3 = true")
+          span.text-center ¡Atención!
+          .indicador--click(v-if="mostrarIndicador")
+    ModalA(:abrir-modal.sync="modal1")
+      .row
+        .col-lg.mb-4.mb-lg-0
+          h5 ¡Escnna!
+          p Forma de violencia física, sexual, psicológica y simbólica que se manifiesta en la utilización del cuerpo de un niño o niña, o de su representación, con fines de dominación, gratificación o lucro a cambio de una retribución tangible o intangible, o de una promesa de retribución para la niña, el niño o para otra persona.
+        .col-lg-auto
+          figure
+            img(src='@/assets/curso/tema3/img9.jpg')
+    ModalA(:abrir-modal.sync="modal2")
+      .row
+        .col-lg.mb-4.mb-lg-0
+          h5 ¡Importante!
+          p Los niños, niñas y adolescentes víctimas que son tratados como mercancías y objetos sexuales, describen la situación de explotación sexual. Esta conducta que atenta contra la dignidad, es cruel y degradante; es una forma de trato inhumano, equiparable a la tortura.
+        .col-lg-auto
+          figure
+            img(src='@/assets/curso/tema3/img10.jpg')
+    ModalA(:abrir-modal.sync="modal3")
+      .row
+        .col-lg.mb-4.mb-lg-0
+          h5 ¡Atención!
+          p Se ha contemplado la Escnna, como una grave vulneración a los derechos de la niñez, a su posibilidad de desarrollo integral en condiciones de libertad y seguridad.
+        .col-lg-auto
+          figure
+            img(src='@/assets/curso/tema3/img11.jpg')
+    .row.justify-content-center
+      .col-lg-8
+        .tarjeta.color-primario.p-3
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-2
+              img(src="@/assets/curso/tema3/img7.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 Escnna
+                  p.text-small Profundice en otros aspectos que los agentes turísticos deben conocer y aplicar, en lo relacionado con Escnna. Visualice la información del Anexo_3_EjesDeAccion-ESCNNA
+                .col-sm-auto
+                  a.boton.color-secundario(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
 
 </template>
 
@@ -71,7 +227,47 @@
 export default {
   name: 'Tema3',
   data: () => ({
-    // variables de vue
+    modal1: false,
+    modal2: false,
+    modal3: false,
+    datosSlyder: [
+      {
+        titulo: 'Política de calidad turística',
+        texto:
+          'Tiene como fin determinar las líneas estratégicas que permitirán gestionar mejoras sobre los niveles de calidad en la prestación de servicios turísticos, al generar una cultura de excelencia entre actores públicos y privados para posicionar a Colombia como destino diferenciado, competitivo y sostenible.',
+        imagen: require('@/assets/curso/tema3/img3.jpg'),
+      },
+      {
+        titulo: 'Política para el desarrollo del ecoturismo',
+        texto:
+          'Propuesta interinstitucional que busca fortalecer y diversificar la actividad ecoturística para que las regiones del país puedan ofertar productos competitivos, sostenibles, ambiental, social, económica y culturalmente mediante los cuales se proporcionen beneficios a la comunidad receptora y la integren, de manera productiva, en su prestación de servicios turísticos.',
+        imagen: require('@/assets/curso/tema3/img4.jpg'),
+      },
+      {
+        titulo: 'Política de turismo y artesanías',
+        texto:
+          'Su objetivo es integrar el desarrollo, conjunto y responsable, de la cadena productiva del turismo y artesanías, procurando la salvaguarda y la difusión de las tradiciones artesanales y de beneficio para las comunidades y destinos.',
+        imagen: require('@/assets/curso/tema3/img5.jpg'),
+      },
+      {
+        titulo: 'Política de turismo cultural',
+        texto:
+          'Ayudar a promover el turismo cultural de manera competitiva en las comunidades y destinos.',
+        imagen: require('@/assets/curso/tema3/img6.jpg'),
+      },
+      {
+        titulo: 'Política de infraestructura turística',
+        texto:
+          'Para el apoyo, promoción y divulgación de proyectos relacionados con la infraestructura turística.',
+        imagen: require('@/assets/curso/tema3/img7.jpg'),
+      },
+      {
+        titulo: 'Política de turismo sostenible',
+        texto:
+          '<b>“Unidos por la naturaleza”</b> una visión a largo plazo, del manejo sostenible de las actividades de los prestadores de servicios turísticos y los turistas.',
+        imagen: require('@/assets/curso/tema3/img8.jpg'),
+      },
+    ],
   }),
   mounted() {
     this.$nextTick(() => {
