@@ -328,7 +328,7 @@ export default {
     contenidoInstruccional: [
       {
         nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor metodológico y pedagógico',
+        cargo: 'Responsable del equipo de diseño instruccional',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
@@ -344,7 +344,7 @@ export default {
       },
       {
         nombre: 'Fabián Leonardo Correa Díaz',
-        cargo: 'Diseñador Instruccional',
+        cargo: 'Diseñador instruccional',
         centro:
           'Centro de la Industria, la Empresa y los Servicios - CIES - Regional Norte de Santander',
       },
@@ -433,7 +433,7 @@ export default {
       },
       {
         nombre: 'Yuli Marcela Gómez Tarazona',
-        cargo: 'Validación de diseño y contenido',
+        cargo: 'Validación contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },

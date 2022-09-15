@@ -265,7 +265,7 @@
             PasosA.color-acento-contenido.mb-5(tipo="n")
               .row.align-items-center
                 .col-12.col-lg.mb-4.mb-lg-0
-                  h4 Principio 1: Planifique y prepare su viaje con anticipación
+                  h4 Principio 1: planifique y prepare su viaje con anticipación
                   p.mb-0 Consulte y verifique la disponibilidad y reglamentación del sitio que se vaya a visitar.
                 .col-lg-auto
                   figure
@@ -275,11 +275,11 @@
                   figure
                     img(src='@/assets/curso/tema2/img25.jpg')
                 .col-12.col-lg
-                  h4 Principio 2: Viaje y acampe en superficies resistentes
+                  h4 Principio 2: viaje y acampe en superficies resistentes
                   p.mb-0 Busque reducir el impacto a la vegetación y los suelos. Ante esto, recuerde caminar preferiblemente sobre superficies que son resistentes, como las rocas.
               .row.align-items-center
                 .col-12.col-lg.mb-4.mb-lg-0
-                  h4 Principio 3: Disponga los desperdicios de la manera más apropiada
+                  h4 Principio 3: disponga los desperdicios de la manera más apropiada
                   p.mb-0 Lo que lleve, regréselo, tenga cuidado con los desperdicios que puede generar, y si es así, disponga de ellos correctamente.
                 .col-lg-auto
                   figure
@@ -289,11 +289,11 @@
                   figure
                     img(src='@/assets/curso/tema2/img27.jpg')
                 .col-12.col-lg
-                  h4 Principio 4: Respete la vida silvestre
+                  h4 Principio 4: respete la vida silvestre
                   p.mb-0 La fauna silvestre no existiría sin su fauna natural. Proteja las especies en peligro de extinción
               .row.align-items-center
                 .col-12.col-lg.mb-4.mb-lg-0
-                  h4 Principio 5: Minimice el uso e impacto de fogatas
+                  h4 Principio 5: minimice el uso e impacto de fogatas
                   p.mb-0 Revise si realmente hay la necesidad de hacer fuego.
                 .col-lg-auto
                   figure
@@ -303,7 +303,7 @@
                   figure
                     img(src='@/assets/curso/tema2/img28.jpg')
                 .col-12.col-lg
-                  h4 Principio 6: Considere a otros visitantes
+                  h4 Principio 6: considere a otros visitantes
                   p.mb-0 Estos sitios pueden ser visitados no solamente por usted, sino por más personas. Por esto, recuerde que se pueden dar conflictos con otras personas o con el medio ambiente.
               .row.align-items-center
                 .col-12.col-lg.mb-4.mb-lg-0
