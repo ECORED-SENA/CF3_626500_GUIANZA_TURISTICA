@@ -137,7 +137,6 @@
         #t_1_1
         .titulo-segundo.color-acento-contenido
           h2 1.1 Técnicas de manejo según conductas de usuarios
-        p La diversidad de grupos a los que un guía turístico puede enfrentarse hace que la guianza sea una acción siempre distinta, aunque esencialmente conserve todos los esquemas y mecanismos técnicos para su ejecución. Cada grupo de personas que visite un lugar o participe de alguna actividad guiada, presentará algunas conductas que podrían ser impactadas, profesionalmente, por el guía, para una mejor experiencia.
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img8.jpg')})`}"
@@ -209,7 +208,6 @@
     #t_1_2
     .titulo-segundo.color-acento-contenido
       h2 1.2 Manejo de conflictos y técnicas de negociación
-    p.mb-5 Un buen guía es capaz de detectar, con facilidad, si existe algún tipo de conflicto en un grupo y debe contar con estrategias de negociación para resolverlos. Un conflicto se puede definir como el tropiezo que hay, o puede haber, entre dos o más partes (personas, posturas, ideas, enunciados, etc.). Por lo general, los conflictos se presentan cuando las personas o partes implicadas tienen una percepción distinta sobre un mismo asunto, tema, situación o realidad.
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/img20.jpg')})`}"

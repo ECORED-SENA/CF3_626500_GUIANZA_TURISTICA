@@ -42,7 +42,7 @@
                 p En un #[i tour] fuera de la ciudad, el grupo y su guía se encuentran con que hay mucho tráfico y retrasa el servicio dos horas. En medio del recorrido, los clientes informan que tienen vuelo en tres horas y que deben regresar al hotel para recoger su equipaje. Aunque el guía lo explique y evidencie que el retraso no es su culpa, habrá molestia por falta de información sobre las condiciones del tráfico y, además, por falta de sincronización de su parte con su agencia de viaje.
             p En caso de estar contratado para un servicio que incluye alimentación, alojamiento, ingreso a museos u otros atractivos, el guía debe verificar que las condiciones de estos servicios coincidan con lo contratado, antes de iniciar el servicio guiado.
             p.mb-5 Para esto, debe prestar atención a:
-            .row.mb-5
+            .row.align-items-center.mb-5
               .col-lg-auto.mb-4.mb-lg-0
                 figure
                   img(src='@/assets/curso/tema2/img5.png')
@@ -68,8 +68,6 @@
                     .lista-ol--cuadro__vineta
                       span 5
                     | Revisión botiquín: contar con los elementos necesarios y permitidos por ley para el uso adecuado de los mismos.
-            p En caso de estar contratado para un servicio que incluye alimentación, alojamiento, ingreso a museos u otros atractivos, el guía debe verificar que las condiciones de estos servicios coincidan con lo contratado, antes de iniciar el servicio guiado.
-            p.mb-5 Para esto, debe prestar atención a:
             .row.justify-content-center
               .col-12.bg-color9
                 .row.justify-content-center.align-items-center
