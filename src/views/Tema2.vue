@@ -305,7 +305,7 @@
                   p.mb-0 Estos sitios pueden ser visitados no solamente por usted, sino por más personas. Por esto, recuerde que se pueden dar conflictos con otras personas o con el medio ambiente.
               .row.align-items-center
                 .col-12.col-lg.mb-4.mb-lg-0
-                  h4 Principio 7: DEJE lo que encuentre
+                  h4 Principio 7: deje lo que encuentre
                   p.mb-0 Respetar el entorno natural y cada uno de sus elementos en conjunto; el irrespeto a un sistema y cualquier elemento que se vea vulnerado traerá consigo impactos que puedan comprometer la flora y fauna.
                 .col-lg-auto
                   figure

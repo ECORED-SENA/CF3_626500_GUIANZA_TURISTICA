@@ -12,10 +12,7 @@
           img(src='@/assets/curso/tema1/img1.jpg')
       .col-lg-6
         p Desde la óptica de la guianza turística, la comunicación debe entenderse como #[b poner en común o compartir información, historia, sucesos, orígenes]. Es decir, el comunicador no solo transmite palabras, también un estado de ánimo, un sentimiento, el asombro, características, crisis y otras situaciones, guardando las proporciones de cada una.
-        .cajon.color-secundario.p-4
-          p Hubo tres hechos durante el Renacimiento que dieron lugar a cambios ideológicos, promovieron la libertad y la relación del ser humano con la naturaleza y que, además, fueron fundamentales para que luego se desarrollara la industria turística.
-          p.mb-0 En realidad, estos tres hechos, fueron excelente referente para iniciar al turismo a partir del inicio del desligue de la Iglesia como fuente de todo, a la consideración de que el ser humano puede pensar libremente y ser bueno y la lucha del mismo por sus derechos fundamentales.
-    p Se debe tener en cuenta que, desde el punto de vista de lo comunicativo, el guía turístico asume algunas responsabilidades que van más allá de solo acompañar un grupo; por ello se resaltan las siguientes:
+        p Se debe tener en cuenta que, desde el punto de vista de lo comunicativo, el guía turístico asume algunas responsabilidades que van más allá de solo acompañar un grupo; por ello se resaltan las siguientes:
     .row.bg-color4
       .col-12.p-5
         SlyderB(:datos="datosSlyder")
