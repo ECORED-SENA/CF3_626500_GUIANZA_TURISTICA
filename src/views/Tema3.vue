@@ -2,11 +2,11 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 3
       h1 Recomendaciones sobre los servicios de guionaje contratados
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema3/img1.jpg')})`}"
       )
@@ -15,7 +15,7 @@
           br
           br
           | Además, el #[b guía de turismo] debe tener un profundo conocimiento del lugar, haberlo visitado varias veces y conocer anécdotas o datos curiosos.
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-lg-10
         .cajon.color-acento-botones.p-5
           .row.justify-content-center.align-items-center
@@ -23,9 +23,9 @@
               p.mb-0 El #[b guía de turismo deberá, entre otras responsabilidades], llevar un botiquín de primeros auxilios según el tipo de #[b turismo] que realice. Si es de aventura: cuerdas, cascos y botas; si es de avistamiento de aves: binoculares, libros, telescopios; y si es un #[i city tour]: folletos y también libros.
             .col-6.col-lg-auto
               figure
-                img(src='@/assets/curso/tema3/img8.svg')
+                img(src='@/assets/curso/tema3/img8.svg', style="width: 80px").m-auto
     p.mb-5 Estas son otras recomendaciones de suma importancia que los guías de turismo deben tener en cuenta y aplicar, de manera permanente, en su servicio:
-    .row.bg-color13.mb-5
+    .row.bg-color13.mb-5(data-aos="fade-down")
       .col-12.mb-4
         .row
           .col-lg.pb-5.pb-lg-0
@@ -75,7 +75,7 @@
             figure
               img(src='@/assets/curso/tema3/img10.svg')
     p.mb-5 A continuación, se invita a profundizar en las especificaciones de la documentación que suelen tener y usar los turistas. Es fundamental tener conocimiento de ello y diferenciar la utilidad de cada documento:
-    figure
+    figure(data-aos="fade-right")
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/VP0MDcfxd0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     Separador
@@ -83,30 +83,32 @@
     .titulo-segundo.color-acento-contenido
       h2 3.1 Marco legal del turismo
     .row.bg-color5
-      .col-12.p-5
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema3/img1.svg')})`}"
-          )
-          .bloque-texto-g__texto.p-4
-            p Los guías de turismo son, además, fuentes de información para turistas, viajeros y clientes en general. En ese sentido, es importante enterar a los usuarios sobre las normas, leyes y disposiciones legales que existen, sobre su servicio ofrecido o sobre el servicio contratado.
-        .row.justify-content-center.mb-5
+      .col-12.px-5
+        .bloque-texto-a.color-primario.p-4.p-md-5.mb-5(data-aos="fade-left") 
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-4.mb-4.mb-lg-0
+              figure
+                img(src='@/assets/curso/tema3/img1.svg')
+            .col-lg-8
+              .bloque-texto-a__texto.p-4
+                p.py-4 Los guías de turismo son, además, fuentes de información para turistas, viajeros y clientes en general. En ese sentido, es importante enterar a los usuarios sobre las normas, leyes y disposiciones legales que existen, sobre su servicio ofrecido o sobre el servicio contratado.
+        .row.justify-content-center.mb-5(data-aos="fade-right")
           .col-lg-10
             .cajon.color-primario.p-4
               .row.justify-content-center.align-items-center
-                .col-5.col-lg-auto
+                .col-auto.mb-4.mb-md-0
                   figure
                     img(src='@/assets/curso/tema3/img18.svg')
-                .col
+                .col-10
                   p.mb-0 Pero no solo se debe conocer la ley, y sus probables cambios permanentes para informar u orientar a los clientes sino, desde luego, para desarrollar de manera efectiva, segura, informada y suficiente, todas las actividades del sector.
         .row
-          .col-12.p-5.bg-color6.shadow-sm
+          .col-12.p-5.bg-color6.shadow-sm(data-aos="fade-up")
             .row.mb-5
               .col-lg-3.mb-4.mb-lg-0
                 .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
                   .indicador--hover(v-if="indicadorTarjetaFlip")
                   .tarjeta-flip__contenedor
-                    .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img2.svg')})`}")
+                    .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img2b.svg')})`}")
                     .tarjeta-flip__contenido.bg-color14.p-4.p-xl-5
                       h3 1931 - Primera norma de turismo
                       p Colombia elabora la primera norma sobre turismo en 1931, en el Gobierno de Enrique Olaya Herrera, a través de la Ley 86 de 1931 que crea el Servicio Oficial de Turismo, cuyo propósito principal era el de recaudar el impuesto al turismo del 5% sobre la estadía de los visitantes entrantes al país.
@@ -114,7 +116,7 @@
                 .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
                   .indicador--hover(v-if="indicadorTarjetaFlip")
                   .tarjeta-flip__contenedor
-                    .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img3.svg')})`}")
+                    .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img3b.svg')})`}")
                     .tarjeta-flip__contenido.bg-color15.p-4.p-xl-5
                       h3 1968 - Corporación Nacional de Turismo
                       p Con el tiempo se creó el ente de economía mixta que regularía todo el servicio hotelero y derivado de él; se creó la Corporación Nacional de Turismo (CNT), por medio del Decreto-Ley 2700 de 1968 y la Ley 60 de 1968. Esta corporación realizó un trabajo pertinente que ayudó al desarrollo de la actividad turística en el país.
@@ -122,7 +124,7 @@
                 .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
                   .indicador--hover(v-if="indicadorTarjetaFlip")
                   .tarjeta-flip__contenedor
-                    .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img4.svg')})`}")
+                    .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img4b.svg')})`}")
                     .tarjeta-flip__contenido.bg-color16.p-4.p-xl-5
                       h3 1991 - Derecho constitucional
                       p Adicionalmente la Constitución Política de 1991 menciona el turismo en el artículo 52, pues los colombianos tienen este derecho social y económico, dada su contribución al desarrollo integral en el aprovechamiento del tiempo libre y en la revalorización de la identidad cultural de las comunidades.
@@ -130,7 +132,7 @@
                 .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
                   .indicador--hover(v-if="indicadorTarjetaFlip")
                   .tarjeta-flip__contenedor
-                    .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img5.svg')})`}")
+                    .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img5b.svg')})`}")
                     .tarjeta-flip__contenido.bg-color17.p-4.p-xl-5
                       h3 1996 - Ley General del Turismo
                       p Con esta se creó el Viceministerio de Turismo, que sustituyó a la CNT, y amplió todas sus funciones, pues, se encargó de todos los prestadores de servicios turísticos del país, además de reglamentar toda la actividad hasta nuestros días.
@@ -188,44 +190,44 @@
           .titulo-segundo.color-acento-contenido
             h2 3.2 Políticas nacionales de turismo
           p El objetivo general de una política nacional es procurar el crecimiento en cantidad, calidad y permanencia, de los destinos turísticos; en Colombia, el Viceministerio de Turismo elabora las políticas concernientes al turismo.
-          p.mb-5 Las siguientes son las políticas nacionales de turismo vigentes, elaboradas por el Ministerio de Comercio, Industria y Turismo de Colombia:
-    SlyderB(:datos="datosSlyder")
+          p.mb-4.mb-lg-5 Las siguientes son las políticas nacionales de turismo vigentes, elaboradas por el Ministerio de Comercio, Industria y Turismo de Colombia:
+    SlyderB(:datos="datosSlyder")(data-aos="fade-right")
     Separador
     #t_3_3
     .titulo-segundo.color-acento-contenido
       h2 3.3 Prevención de la Explotación Sexual Niños, Niñas y Adolescentes - Escnna
     .row.mb-5
-      .col-lg.mb-4.mb-lg-0
+      .col-lg.mb-4.mb-lg-0(data-aos="fade-right")
         p El turismo, como actividad económica de importancia, pone sobre el escenario un fuerte impacto positivo por generar divisas, empleos y ayudar a la balanza de pagos y al Producto Interno Bruto (PIB). Sin embargo, se debe admitir que también produce impactos negativos importantes, como la huella de carbono o fenómenos como la prostitución, que llega de la mano de los desarrollos turísticos y la explotación sexual de niños y adolescentes.
         .cajon.color-secundario.p-4
           p.mb-0 La explotación sexual de la niñez y adolescencia no es un fenómeno exclusivo de Colombia, motivo por el cual a nivel mundial se comenzó a trabajar para contrarrestar este impacto negativo ya que, además de tener connotaciones éticas y sociales, también lo tiene en el aspecto económico.
-      .col-lg-auto
+      .col-lg-auto(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema3/img12.jpg')
     p.mb-5 Algunos hechos importantes alrededor de la Explotación Sexual de Niños, Niñas y Adolescentes (Escnna), son:
-    .row.mb-5
+    .row.mb-5(data-aos="fade-up")
       .col-lg.m-2.p-4.bg-color1
         .row.justify-content-center
           .col-6.mb-4
             figure
-              img(src='@/assets/curso/tema3/img1.png')
+              img(src='@/assets/curso/tema3/img1.png', style="width: 120px").m-auto
           .col-12
             p.text-center 1996. En Suecia se realizó el Primer Congreso Mundial contra la Explotación Sexual Comercial de Niñas, Niños y Adolescentes - Escnna.
       .col-lg.m-2.p-4.bg-color2
         .row.justify-content-center
           .col-6.mb-4
             figure
-              img(src='@/assets/curso/tema3/img2.png')
+              img(src='@/assets/curso/tema3/img2.png', style="width: 120px").m-auto
           .col-12
             p.text-center Ley 679 de 2001 (agosto 3) por medio de la cual se expide un estatuto para prevenir y contrarrestar la explotación, la pornografía y el turismo sexual con menores.
       .col-lg.m-2.p-4.bg-color3
         .row.justify-content-center
           .col-6.mb-4
             figure
-              img(src='@/assets/curso/tema3/img3.png')
+              img(src='@/assets/curso/tema3/img3.png', style="width: 120px").m-auto
           .col-12
             p.text-center Constitución Nacional de 1991. Artículo 44. Son derechos fundamentales de los niños: la vida, la integridad física, la salud y la seguridad social, la alimentación equilibrada, su nombre y nacionalidad, tener una familia y no ser separados de ella, el cuidado y amor, la educación y la cultura, la recreación y la libre expresión de su opinión.
-    TabsB.color-acento-contenido.mb-5
+    TabsB.color-acento-contenido.mb-5(data-aos="fade-right")
       .py-4.py-md-5(titulo="Plan de manejo de tránsito" :icono="require('@/assets/curso/tema2/img13.svg')")
         .row
           .col-lg.mb-4.mb-lg-0
@@ -250,7 +252,7 @@
           .col-lg-auto
             figure
               img(src='@/assets/curso/tema3/img11.jpg')
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-left")
       .col-lg-8
         .tarjeta.color-primario.p-3
           .row.justify-content-around.align-items-center
@@ -260,7 +262,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h3.mb-1 Escnna
-                  p.text-small Profundice en otros aspectos que los agentes turísticos deben conocer y aplicar, en lo relacionado con Escnna. Visualice la información del Anexo_3_EjesDeAccion-ESCNNA
+                  p.text-small Profundice en otros aspectos que los agentes turísticos deben conocer y aplicar, en lo relacionado con Escnna. Visualice la siguiente información.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="obtenerLink('downloads/anexo3.pdf')" target="_blank")
                     span Descargar

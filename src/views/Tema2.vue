@@ -2,14 +2,14 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
       h1 Condiciones del servicio guiado
-    .row.bg-color8
+    .row.bg-color8(data-aos="fade-right")
       .col-12.p-5
-        .row.align-items-center
-          .col-lg-4.mb-4.mb-lg-0
+        .row.justify-content-center.align-items-center
+          .col-8.col-lg-4.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/tema2/img3.png')
           .col-lg
@@ -18,23 +18,23 @@
     .row.bg-color5
       .col-12.p-5
         .row.justify-content-center.mb-5
-          .col-lg-5.mb-4.mb-lg-0
+          .col-xl-5.mb-4.mb-xl-0(data-aos="fade-right")
             LineaTiempoD.color-primario
               p(numero="1" titulo="Verificación de condiciones del servicio") Este principio se aplica para cualquier transacción desde un alquiler de un bien hasta comprar un producto, no solo en su servicio guiado.
               p(numero="2" titulo="Verificar otros servicios contratados o conexos") Debe indagar por los servicios anexos a la guianza, preguntar a su contratante (agencia de viajes, pasajero o empresa), sobre limitaciones de tiempo respecto a vuelos próximos, #[i check in] o #[i check out] del hotel y otros servicios que no estén incluidos.
               p(numero="3" titulo="Proceder informado") Debe reunir toda la información sobre números de los vuelos de los turistas o usuarios del servicio guiado, nombres de los alojamientos e instrucciones para llegar a ellos y servicios que requieran durante su acompañamiento.
-          .col-lg-5
+          .col-8.col-lg-5(data-aos="fade-left")
             figure
               img(src='@/assets/curso/tema2/img4.png')
         .row
-          .col-12.p-5.bg-color6.shadow-sm
+          .col-12.p-5.bg-color18.shadow-sm
             .row.align-items-center.mb-5
               .col-auto.pe-0
                 figure
                   img(src='@/assets/curso/tema2/img8.svg')
               .col
                 h4.mb-0 Ejemplo orientador
-            .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+            .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
               .bloque-texto-g__img(
                 :style="{'background-image': `url(${require('@/assets/curso/tema2/img16.jpg')})`}"
               )
@@ -42,11 +42,11 @@
                 p En un #[i tour] fuera de la ciudad, el grupo y su guía se encuentran con que hay mucho tráfico y retrasa el servicio dos horas. En medio del recorrido, los clientes informan que tienen vuelo en tres horas y que deben regresar al hotel para recoger su equipaje. Aunque el guía lo explique y evidencie que el retraso no es su culpa, habrá molestia por falta de información sobre las condiciones del tráfico y, además, por falta de sincronización de su parte con su agencia de viaje.
             p En caso de estar contratado para un servicio que incluye alimentación, alojamiento, ingreso a museos u otros atractivos, el guía debe verificar que las condiciones de estos servicios coincidan con lo contratado, antes de iniciar el servicio guiado.
             p.mb-5 Para esto, debe prestar atención a:
-            .row.align-items-center.mb-5
-              .col-lg-auto.mb-4.mb-lg-0
+            .row.justify-content-center.align-items-center.mb-5
+              .col-8.col-lg-auto.mb-4.mb-lg-0(data-aos="fade-right")
                 figure
                   img(src='@/assets/curso/tema2/img5.png')
-              .col-lg
+              .col-lg(data-aos="fade-left")
                 ol.lista-ol--cuadro.lista-ol--separador
                   li 
                     .lista-ol--cuadro__vineta
@@ -68,15 +68,15 @@
                     .lista-ol--cuadro__vineta
                       span 5
                     | Revisión botiquín: contar con los elementos necesarios y permitidos por ley para el uso adecuado de los mismos.
-            .row.justify-content-center
+            .row.justify-content-center(data-aos="fade-right")
               .col-12.bg-color9
                 .row.justify-content-center.align-items-center
-                  .col-12.col-lg-auto.mb-4.mb-lg-0
+                  .col-12.col-lg-auto.mb-4.mb-lg-0.d-none.d-lg-block
                     figure
                       img(src='@/assets/curso/tema2/img6.png')
                   .col-lg
                     .row.align-items-center
-                      .col-4.col-lg-auto.mb-4.mb-lg-0
+                      .col-4.col-lg-auto.mb-4.mb-lg-0.d-none.d-lg-block
                         figure
                           img(src='@/assets/curso/tema2/img9.svg')
                       .col-lg
@@ -86,17 +86,17 @@
         #t_2_1
         .titulo-segundo.color-acento-contenido
           h2 2.1 Facilidades turísticas
-        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-up")
           .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/tema2/img2.jpg')})`}"
+            :style="{'background-image': `url(${require('@/assets/curso/tema2/img10.png')})`}"
           )
           .bloque-texto-g__texto.p-4
             p Estas son el conjunto de bienes y servicios con que cuenta un destino turístico para satisfacer, suficientemente, las necesidades o requerimientos del turista o visitante; además, complementan los atractivos turísticos, permitiendo la permanencia y el disfrute de una estancia agradable.
     .row.align-items-center.mb-5
-      .col-lg-auto.mb-4.mb-lg-0
+      .col-lg-auto.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema2/img4.svg')
-      .col-lg
+      .col-lg(data-aos="fade-left")
         ol.lista-ol--cuadro.lista-ol--separador
           li 
             .lista-ol--cuadro__vineta
@@ -122,7 +122,7 @@
             .lista-ol--cuadro__vineta
               span 6
             | Servicios de eventos: preparación, desarrollo y conducción de eventos grupales y/o masivos (congresos, seminarios, convenciones, otros similares).
-    .row.bg-color10.mb-5
+    .row.bg-color10.mb-5(data-aos="fade-down")
       .col-12.p-5
         .row.align-items-center
           .col-lg.mb-4.mb-lg-0
@@ -131,7 +131,7 @@
           .col-lg-4
             figure
               img(src='@/assets/curso/tema2/img7.png')
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-right")
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-4
           p.mb-0 #[b Figura 2]. Clasificación de los prestadores de servicios turísticos, Ley 300 de 1996
@@ -139,7 +139,7 @@
           img(src='@/assets/curso/tema2/img5.svg')
           figcaption Nota. Tomada de la Ley 300 de 1996.
     p.mb-5 Los Prestadores de Servicios Turísticos (PST), en el territorio colombiano, tienen obligaciones y entre las más destacadas se encuentran:
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-left")
       .col-lg-10
         LineaTiempoD.color-primario
           .row.justify-content-center(numero="1" titulo="Cumplir con condiciones y requisitos")
@@ -184,23 +184,23 @@
       h2 2.2 Características físicas del lugar a visitar
     p La identificación que haga el guía de las condiciones físicas del sitio por visitar es muy importante. Ello, porque se requiere tener en consideración todas las contingencias que se puedan presentar. Una de estas condiciones es el clima, que se define como las condiciones meteorológicas medias que caracterizan a un lugar determinado; se trata de una síntesis del tiempo atmosférico, obtenida a partir de estadísticas a largo plazo. 
     p.mb-5 Se invita a conocer más y mejor, los elementos meteorológicos a tener en cuenta, explorando el siguiente recurso:
-    .row.bg-color11
+    .row.bg-color11(data-aos="fade-left")
       .col-12.p-4
         TabsA.color-acento-botones.mb-5
           .tarjeta.color-secundario.p-4(titulo="1. Presión atmosférica")
             .row.justify-content-center
-              .col-12.col-lg.mb-4.mb-0
+              .col-12.col-xl-8.mb-4.mb-0
                 h4 Presión atmosférica
                 p.mb-0 Es numéricamente igual al peso de una columna de aire que tiene como base la unidad de superficie y como altura la de la atmósfera; se mide con el barómetro. La lectura barométrica se puede expresar en pulgadas de mercurio (inHg) o el pascal (Pa), que equivale a 3386,389 veces una inHg. Cuando el aire es seco, fresco y agradable la lectura del barómetro aumenta pero cuando cae repentinamente se avecina una tormenta.
-              .col-lg-auto
+              .col-12.col-xl-4
                 figure.m-auto
                   img(src='@/assets/curso/tema2/img17.jpg')
           .tarjeta.color-secundario.p-4(titulo="2. Temperatura")
             .row.justify-content-center
-              .col-12.col-lg.mb-4.mb-0
+              .col-12.col-xl-8.mb-4.mb-0
                 h4 Temperatura
                 p.mb-0 Grado o nivel térmico de un cuerpo o de la atmósfera. Las escalas de temperatura más comúnmente usadas son dos: Celsius y Fahrenheit. La vegetación espesa atenúa cambios de temperatura, porque contiene bastante agua, actuando como aislante en la transferencia de calor entre la Tierra y la atmósfera. Por otro lado, las regiones desérticas o áridas permiten grandes variaciones en la temperatura. Esta influencia climática tiene a su vez su propia variación diurna y estacional.
-              .col-lg-auto
+              .col-12.col-xl-4
                 figure
                   img(src='@/assets/curso/tema2/img18.jpg')
           .tarjeta.color-secundario.p-4(titulo="3. Precipitación")
@@ -208,46 +208,46 @@
               .col-12.col-lg.mb-4.mb-0
                 h4 Precipitación
                 p.mb-0 Puede producirse por la caída directa de gotas de agua o de cristales de hielo que se funden, las gotas son mayores cuanto más alta está la nube que las forma y más elevada es la humedad del aire, ya que se condensa sobre ellas el vapor de las capas que van atravesando; la precipitación se mide con un aparato llamado pluviómetro. Se calcula midiendo el agua que cae sobre un metro cuadrado de superficie durante 24 horas y expresando esa cantidad en litros por metro cuadrado.
-              .col-lg-auto
+              .col-12.col-xl-4
                 figure
                   img(src='@/assets/curso/tema2/img19.jpg')
           .tarjeta.color-secundario.p-4(titulo="4. Humedad")
             .row.justify-content-center
-              .col-12.col-lg.mb-4.mb-0
+              .col-12.col-xl-8.mb-4.mb-0
                 h4 Humedad
                 p.mb-0 La atmósfera terrestre contiene cantidades variables de agua en forma de vapor. La mayor parte se encuentra en los cinco primeros kilómetros del aire, dentro de la troposfera, por  la evaporación que sucede por el calor solar y la temperatura propia de la Tierra.
-              .col-lg-auto
+              .col-12.col-xl-4
                 figure
                   img(src='@/assets/curso/tema2/img20.jpg')
           .tarjeta.color-secundario.p-4(titulo="5. Humedad relativa")
             .row.justify-content-center
-              .col-12.col-lg.mb-4.mb-0
+              .col-12.col-xl-8.mb-4.mb-0
                 h4 Humedad relativa
                 p.mb-0 El vapor de agua se expresa como porcentaje de la cantidad máxima que puede contener el aire saturado a una determinada temperatura. Este porcentaje es conocido como humedad relativa. La niebla es un conjunto de minúsculas gotitas de agua que entorpecen la visibilidad y en realidad es una nube a nivel del suelo. Cuando la visibilidad está reducida a menos de 1 km se habla de niebla, pero si la visibilidad es superior a 1 km, pero menor que 10 km se la define como neblina.
-              .col-lg-auto
+              .col-12.col-xl-4
                 figure
                   img(src='@/assets/curso/tema2/img21.jpg')
           .tarjeta.color-secundario.p-4(titulo="6. Vientos")
             .row.justify-content-center
-              .col-12.col-lg.mb-4.mb-0
+              .col-12.col-xl-8.mb-4.mb-0
                 h4 Vientos
                 p.mb-0 Es una variable meteorológica, de la cual se mide la dirección y la intensidad. La dirección se determina con una veleta y permite identificar de dónde viene el viento. La velocidad se mide en unidades de distancias (millas, km) por unidad de tiempo (hora).
-              .col-lg-auto
+              .col-12.col-xl-4
                 figure
                   img(src='@/assets/curso/tema2/img22.jpg')
           .tarjeta.color-secundario.p-4(titulo="7. Responsabilidad del guía de turismo")
             .row.justify-content-center
-              .col-12.col-lg.mb-4.mb-0
+              .col-12.col-xl-8.mb-4.mb-0
                 h4 Responsabilidad del guía de turismo
                 p.mb-0 Es responsabilidad del guía de turismo, además de identificar las características del lugar a visitar, planear también las prácticas que generen el menor impactos negativos en los sitios donde se prestarán los servicios turísticos.
-              .col-lg-auto
+              .col-12.col-xl-4
                 figure
                   img(src='@/assets/curso/tema2/img23.jpg')
     Separador
     #t_2_3
     .titulo-segundo.color-acento-contenido
       h2 2.3 Principio “No dejar rastro”
-    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-right")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema2/img9.jpg')})`}"
       )
@@ -260,7 +260,7 @@
           .col-12.p-5.bg-color6.shadow-sm
             p A mediados de los años 70, el Servicio Forestal de los Estados Unidos desarrolló un programa educativo para enseñar técnicas de reducción de impacto a los visitantes de lugares abiertos. Finalmente, en 1987 el Servicio de Parques Naturales y el Bureau of Land Management, crean un material educativo llamado Éticas de no deje rastro.
             p.mb-5 Se trató de un compendio de principios para orientar las prácticas de visitas a lugares a campo abierto.
-            PasosA.color-acento-contenido.mb-5(tipo="n")
+            PasosA.color-acento-contenido.mb-5(tipo="n")(data-aos="fade-up")
               .row.align-items-center
                 .col-12.col-lg.mb-4.mb-lg-0
                   h4 Principio 1: planifique y prepare su viaje con anticipación
@@ -318,16 +318,16 @@
     .titulo-segundo.color-acento-contenido
       h2 2.4 Procedimientos en caso de emergencia
     .row.mb-5
-      .col-lg-7.mb-4.mb-lg-0
+      .col-lg-7.mb-4.mb-lg-0(data-aos="fade-right")
         p Es responsabilidad de los guías de turismo establecer las medidas de control necesarias para proteger la seguridad y la salud de los turistas y el equipo de trabajo. Deben conocer las medidas, planes y controles existentes en los #[b Planes de Acción] o #[b Plan General de Emergencias], propios de cada lugar por visitar.
         .cajon.color-acento-botones.p-4
           p.mb-0 En estos planes se definen las metas y objetivos, así como los procesos y los procedimientos que se espera desarrollar por cualquier tipo de incidente o de emergencia específica, en un lapso concreto; así mismo, se definen los recursos, servicios y suministros que se deban utilizar más los responsables de cada acción.
-      .col-lg-5
+      .col-lg-5(data-aos="fade-left")
         figure
           img(src='@/assets/curso/tema2/img30.jpg')
     p.mb-5 El guía de turismo debe entender la estructura organizacional para la atención de emergencias del lugar y, en caso de su activación, a qué lugar de esta estructura se debe integrar. Así, se deben tener en cuenta los planes que pueden llegar a ser aplicados en distintas emergencias:
     .row.justify-content-center.mb-5
-      .col-lg-5.mb-4.mb-lg-0
+      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
         LineaTiempoD.color-primario
           p(numero="1" titulo="Plan General de Emergencia") Cada espacio visitado debe contar con un plan general de manejo emergencias. Este corresponde a la coordinación general en el desarrollo normal del lugar y, dada una emergencia, a planes de acción de logística, contra incendio, evacuación, atención médica y primeros auxilios, información pública, atención de afectados y de lugar.
           p(numero="2" titulo="VAS: Plan de Vigilancia, Acomodación y Seguridad") Corresponde a la gestión de salidas y entradas, manejo de filas y turnos, puestos de información, controles generales de acceso. si se presentan casos de emergencias, desarrollar el plan de evacuación y apoyar, si se requiere, los planes de primeros auxilios, seguridad de incendio.
@@ -336,11 +336,11 @@
           p(numero="5" titulo="Plan de Atención Médica y Primeros Auxilios") Es un componente del Plan de Emergencia orientado a prestar a los afectados, atención prehospitalaria en el lugar de la actividad (ya sea en emergencia o desarrollo normal de la misma) y a posibilitar el traslado, de las que así lo requieran, a centros de atención especializada. En caso de Emergencia este plan opera mientras llega la ayuda institucional (principalmente secretaría de salud), y sirve de apoyo a esta cuando se haga presente en el lugar.
           p(numero="6" titulo="Plan de Información Pública") Apartado del Plan de Emergencia que tiene como objeto manejar y orientar la información ofrecida y entregada al público, tanto en la actividad como antes de ella y después de ella. En emergencia, consiste en comunicar y extender a allegados, familias, medios o entes interesados, la información sobre el estado y ubicación de personas (esto de manera coordinada, centralizada y oportuna).
           p(numero="7" titulo="Plan de Atención Temporal de los Afectados - Refugio") Plan de Emergencia cuya finalidad es facilitar, en un área específicamente asignada para ello, la asistencia a las personas que por sus condiciones o características (niños, adultos mayores, personas en condición de discapacidad, etc.) que a raíz de la situación de emergencia requieren asistencia temporal mientras sus familiares o allegados se hacen cargo de ellos.
-      .col-lg-5
+      .col-7.col-lg-5(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema2/img8.png')   
+          img(src='@/assets/curso/tema2/img8.png')
     p.mb-5 Otros planes de acción, de suma importancia, son:
-    TabsB.color-acento-contenido
+    TabsB.color-acento-contenido(data-aos="fade-down")
       .py-4.py-md-5(titulo="Plan de manejo de tránsito" :icono="require('@/assets/curso/tema2/img13.svg')")
         .row
           .col-lg.mb-4.mb-lg-0
@@ -367,10 +367,10 @@
     .titulo-segundo.color-acento-contenido
       h2 2.5 Elaboración de itinerarios
     .row.mb-5
-      .col-lg-auto.mb-4.mb-lg-0
+      .col-lg-auto.mb-4.mb-lg-0(data-aos="fade-right")
         figure
           img(src='@/assets/curso/tema2/img34.jpg')
-      .col-lg
+      .col-lg(data-aos="fade-left")
         p Después que el guía tiene claridad de los horarios y condiciones de los servicios conexos, debe diseñar el itinerario del servicio y generar la orden para el transporte terrestre; esto implica trazar la secuencia de los puntos en la trayectoria del servicio guiado, darla a conocer a su equipo de trabajo (conductor y proveedores), en lo posible en un mapa y marcar cada uno de los lugares que se visitarán.
         .cajon.color-acento-botones.p-4
           p.mb-0 Para los turistas deberá generar una versión de itinerario, más gráfica, que describa los lugares de interés que serán visitados, además les brindará datos importantes como hora y actividad, así el turista sabrá la hora de desayuno o cena, a qué hora visitar algún atractivo o se realizarán algunas actividades.
@@ -381,7 +381,7 @@
           img(src='@/assets/curso/tema2/img8.svg')
       .col
         h4.mb-0 Elaboración de itinerarios
-    TabsC.color-acento-contenido.mb-5
+    TabsC.color-acento-contenido.mb-5(data-aos="fade-up")
       .py-3.py-md-4(titulo="Ejemplo de itinerario")
         .row
           .col-lg.mb-4.mb-lg-0
@@ -443,7 +443,7 @@
           .col-lg
             h4 Representación cartográfica del itinerario
             p Se debe conocer el concepto de cartografía, esta es una forma de representar la superficie terrestre sobre una superficie plana, sin que haya deformaciones, es decir es una proyección de la superficie.
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-5(data-aos="fade-left")
       .col-12.bg-color12
         .row.justify-content-center.align-items-center
           .col-lg-auto.mb-4.mb-lg-0
@@ -457,7 +457,7 @@
               .col
                 h4 ¡Atención!
                 p.mb-0 En el servicio de transporte, verificar el Formato Único de Extracto del Contrato (FUEC), reglamentado por MinTransporte, que exige: número de FUEC, razón social de la empresa que presta el servicio, número de contrato, contratante, objeto de contrato, objeto de contrato, origen-destino, describiendo puntos intermedios del recorrido, y duración del contrato indicando su fecha de iniciación y terminación.
-    .row.justify-content-center
+    .row.justify-content-center(data-aos="fade-right")
       .col-lg-8
         .tarjeta.color-primario.p-3
           .row.justify-content-around.align-items-center
