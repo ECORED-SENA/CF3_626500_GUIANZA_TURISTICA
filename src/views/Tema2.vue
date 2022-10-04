@@ -295,7 +295,7 @@
                   p.mb-0 Revise si realmente hay la necesidad de hacer fuego.
                 .col-lg-auto
                   figure
-                    img(src='@/assets/curso/tema2/img27.jpg')
+                    img(src='@/assets/curso/tema2/img35.png')
               .row.align-items-center
                 .col-lg-auto.mb-4.mb-lg-0
                   figure
