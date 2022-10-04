@@ -82,16 +82,16 @@
     #t_3_1
     .titulo-segundo.color-acento-contenido
       h2 3.1 Marco legal del turismo
-    .row.bg-color5
+    .bloque-texto-a.color-primario.p-4.p-md-5.mb-5(data-aos="fade-left") 
+      .row.m-0.align-items-center.justify-content-between
+        .col-lg-4.mb-4.mb-lg-0
+          figure
+            img(src='@/assets/curso/tema3/img1.svg')
+        .col-lg-8
+          .bloque-texto-a__texto.p-4
+            p.py-4 Los guías de turismo son, además, fuentes de información para turistas, viajeros y clientes en general. En ese sentido, es importante enterar a los usuarios sobre las normas, leyes y disposiciones legales que existen, sobre su servicio ofrecido o sobre el servicio contratado.
+    .row.bg-color19
       .col-12.px-5
-        .bloque-texto-a.color-primario.p-4.p-md-5.mb-5(data-aos="fade-left") 
-          .row.m-0.align-items-center.justify-content-between
-            .col-lg-4.mb-4.mb-lg-0
-              figure
-                img(src='@/assets/curso/tema3/img1.svg')
-            .col-lg-8
-              .bloque-texto-a__texto.p-4
-                p.py-4 Los guías de turismo son, además, fuentes de información para turistas, viajeros y clientes en general. En ese sentido, es importante enterar a los usuarios sobre las normas, leyes y disposiciones legales que existen, sobre su servicio ofrecido o sobre el servicio contratado.
         .row.justify-content-center.mb-5(data-aos="fade-right")
           .col-lg-10
             .cajon.color-primario.p-4
@@ -102,40 +102,38 @@
                 .col-10
                   p.mb-0 Pero no solo se debe conocer la ley, y sus probables cambios permanentes para informar u orientar a los clientes sino, desde luego, para desarrollar de manera efectiva, segura, informada y suficiente, todas las actividades del sector.
         .row
-          .col-12.p-5.bg-color6.shadow-sm(data-aos="fade-up")
+          .col-12.p-5.bg-color18.shadow(data-aos="fade-up")
             .row.mb-5
-              .col-lg-3.mb-4.mb-lg-0
-                .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
-                  .indicador--hover(v-if="indicadorTarjetaFlip")
-                  .tarjeta-flip__contenedor
-                    .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img2b.svg')})`}")
-                    .tarjeta-flip__contenido.bg-color14.p-4.p-xl-5
-                      h3 1931 - Primera norma de turismo
+              .tarjeta.tarjeta--gris2.p-4.p-lg-5
+                SlyderA(tipo="b")
+                  .row.align-items-center
+                    .col-lg-8
+                      h4 1931: Primera norma de turismo
                       p Colombia elabora la primera norma sobre turismo en 1931, en el Gobierno de Enrique Olaya Herrera, a través de la Ley 86 de 1931 que crea el Servicio Oficial de Turismo, cuyo propósito principal era el de recaudar el impuesto al turismo del 5% sobre la estadía de los visitantes entrantes al país.
-              .col-lg-3.mb-4.mb-lg-0
-                .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
-                  .indicador--hover(v-if="indicadorTarjetaFlip")
-                  .tarjeta-flip__contenedor
-                    .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img3b.svg')})`}")
-                    .tarjeta-flip__contenido.bg-color15.p-4.p-xl-5
-                      h3 1968 - Corporación Nacional de Turismo
+                    .col-lg-4
+                      figure
+                        img(src='@/assets/curso/tema3/img2.svg', style="width: 250px").m-auto
+                  .row.align-items-center
+                    .col-lg-8
+                      h4 1968: Corporación Nacional de Turismo
                       p Con el tiempo se creó el ente de economía mixta que regularía todo el servicio hotelero y derivado de él; se creó la Corporación Nacional de Turismo (CNT), por medio del Decreto-Ley 2700 de 1968 y la Ley 60 de 1968. Esta corporación realizó un trabajo pertinente que ayudó al desarrollo de la actividad turística en el país.
-              .col-lg-3.mb-4.mb-lg-0
-                .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
-                  .indicador--hover(v-if="indicadorTarjetaFlip")
-                  .tarjeta-flip__contenedor
-                    .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img4b.svg')})`}")
-                    .tarjeta-flip__contenido.bg-color16.p-4.p-xl-5
-                      h3 1991 - Derecho constitucional
+                    .col-lg-4
+                      figure
+                        img(src='@/assets/curso/tema3/img3.svg', style="width: 250px").m-auto
+                  .row.align-items-center
+                    .col-lg-8
+                      h4 1991: Derecho constitucional
                       p Adicionalmente la Constitución Política de 1991 menciona el turismo en el artículo 52, pues los colombianos tienen este derecho social y económico, dada su contribución al desarrollo integral en el aprovechamiento del tiempo libre y en la revalorización de la identidad cultural de las comunidades.
-              .col-lg-3
-                .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
-                  .indicador--hover(v-if="indicadorTarjetaFlip")
-                  .tarjeta-flip__contenedor
-                    .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/tema3/img5b.svg')})`}")
-                    .tarjeta-flip__contenido.bg-color17.p-4.p-xl-5
-                      h3 1996 - Ley General del Turismo
+                    .col-lg-4
+                      figure
+                        img(src='@/assets/curso/tema3/img4.svg', style="width: 250px").m-auto
+                  .row.align-items-center
+                    .col-lg-8
+                      h4 1996: Ley General del Turismo
                       p Con esta se creó el Viceministerio de Turismo, que sustituyó a la CNT, y amplió todas sus funciones, pues, se encargó de todos los prestadores de servicios turísticos del país, además de reglamentar toda la actividad hasta nuestros días.
+                    .col-lg-4
+                      figure
+                        img(src='@/assets/curso/tema3/img5.svg', style="width: 250px").m-auto
             p.mb-5 Entre otros, la Ley General del Turismo fortaleció los siguientes aspectos:
             .row.justify-content-center.mb-5
               .col-lg-8

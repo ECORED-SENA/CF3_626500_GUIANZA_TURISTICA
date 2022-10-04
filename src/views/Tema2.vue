@@ -71,7 +71,7 @@
             .row.justify-content-center(data-aos="fade-right")
               .col-12.bg-color9
                 .row.justify-content-center.align-items-center
-                  .col-12.col-lg-auto.mb-4.mb-lg-0.d-none.d-lg-block
+                  .col-12.col-xl-auto.mb-4.mb-lg-0.d-none.d-xl-block
                     figure
                       img(src='@/assets/curso/tema2/img6.png')
                   .col-lg
