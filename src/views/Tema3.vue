@@ -226,7 +226,7 @@
           .col-12
             p.text-center Constitución Nacional de 1991. Artículo 44. Son derechos fundamentales de los niños: la vida, la integridad física, la salud y la seguridad social, la alimentación equilibrada, su nombre y nacionalidad, tener una familia y no ser separados de ella, el cuidado y amor, la educación y la cultura, la recreación y la libre expresión de su opinión.
     TabsB.color-acento-contenido.mb-5(data-aos="fade-right")
-      .py-4.py-md-5(titulo="Plan de manejo de tránsito" :icono="require('@/assets/curso/tema2/img13.svg')")
+      .py-4.py-md-5(titulo="Escnna" :icono="require('@/assets/curso/tema2/img13.svg')")
         .row
           .col-lg.mb-4.mb-lg-0
             h4 ¡Escnna!

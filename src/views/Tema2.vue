@@ -13,7 +13,7 @@
             figure
               img(src='@/assets/curso/tema2/img3.png')
           .col-lg
-            p En la función de la conducción del grupo, el guía debe tener en cuenta el itinerario; específicamente, tiempo y movimiento del servicio, por ello, se requiere conocer las condiciones del servicio contratado. Y puede tener dos escenarios: uno, cuando el guía es el directo encargado de conectar con los servicios que ofreció la agencia de viajes que lo contrató y dos, la asesoría a los usuarios, el orden de las actividades y/o cuales realizar de acuerdo con los servicios que contrataron.
+            p En la función de la conducción del grupo, el guía debe tener en cuenta el itinerario; específicamente, tiempo y movimiento del servicio, por ello, se requiere conocer las condiciones del servicio contratado. Y puede tener dos escenarios: uno, cuando el guía es el directo encargado de conectar con los servicios que ofreció la agencia de viajes que lo contrató y dos, la asesoría a los usuarios, el orden de las actividades y/o cuáles realizar de acuerdo con los servicios que contrataron.
             p Para conducir y orientar al usuario es fundamental que el guía, antes de iniciar, realice las siguientes acciones:
     .row.bg-color5
       .col-12.p-5
@@ -127,7 +127,7 @@
         .row.align-items-center
           .col-lg.mb-4.mb-lg-0
             h4 ¡Entérese!
-            p.mb-0 En Colombia la prestación de los servicios turísticos está reglamentada por la Ley General de Turismo la cual define que toda persona natural o jurídica domiciliada en Colombia o en el extranjero, que habitualmente directa o indirectamente, proporcione, preste, intermedie, contrate, comercialice, venda o reserve servicios turísticos es denominado “prestador de servicios turísticos”.
+            p.mb-0 En Colombia, la prestación de los servicios turísticos está reglamentada por la Ley General de Turismo, la cual define que toda persona natural o jurídica domiciliada en Colombia o en el extranjero, que habitualmente directa o indirectamente, proporcione, preste, intermedie, contrate, comercialice, venda o reserve servicios turísticos es denominado “prestador de servicios turísticos”.
           .col-lg-4
             figure
               img(src='@/assets/curso/tema2/img7.png')
@@ -181,7 +181,7 @@
     Separador
     #t_2_2
     .titulo-segundo.color-acento-contenido
-      h2 2.2 Características físicas del lugar a visitar
+      h2 2.2 Características físicas del lugar por visitar
     p La identificación que haga el guía de las condiciones físicas del sitio por visitar es muy importante. Ello, porque se requiere tener en consideración todas las contingencias que se puedan presentar. Una de estas condiciones es el clima, que se define como las condiciones meteorológicas medias que caracterizan a un lugar determinado; se trata de una síntesis del tiempo atmosférico, obtenida a partir de estadísticas a largo plazo. 
     p.mb-5 Se invita a conocer más y mejor, los elementos meteorológicos a tener en cuenta, explorando el siguiente recurso:
     .row.bg-color11(data-aos="fade-left")
@@ -288,7 +288,7 @@
                     img(src='@/assets/curso/tema2/img27.jpg')
                 .col-12.col-lg
                   h4 Principio 4: respete la vida silvestre
-                  p.mb-0 La fauna silvestre no existiría sin su fauna natural. Proteja las especies en peligro de extinción
+                  p.mb-0 La fauna silvestre no existiría sin su fauna natural. Proteja las especies en peligro de extinción.
               .row.align-items-center
                 .col-12.col-lg.mb-4.mb-lg-0
                   h4 Principio 5: minimice el uso e impacto de fogatas
@@ -326,19 +326,19 @@
         figure
           img(src='@/assets/curso/tema2/img30.jpg')
     p.mb-5 El guía de turismo debe entender la estructura organizacional para la atención de emergencias del lugar y, en caso de su activación, a qué lugar de esta estructura se debe integrar. Así, se deben tener en cuenta los planes que pueden llegar a ser aplicados en distintas emergencias:
-    .row.justify-content-center.mb-5
-      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-6.mb-4.mb-lg-0(data-aos="fade-right")
         LineaTiempoD.color-primario
           p(numero="1" titulo="Plan General de Emergencia") Cada espacio visitado debe contar con un plan general de manejo emergencias. Este corresponde a la coordinación general en el desarrollo normal del lugar y, dada una emergencia, a planes de acción de logística, contra incendio, evacuación, atención médica y primeros auxilios, información pública, atención de afectados y de lugar.
-          p(numero="2" titulo="VAS: Plan de Vigilancia, Acomodación y Seguridad") Corresponde a la gestión de salidas y entradas, manejo de filas y turnos, puestos de información, controles generales de acceso. si se presentan casos de emergencias, desarrollar el plan de evacuación y apoyar, si se requiere, los planes de primeros auxilios, seguridad de incendio.
+          p(numero="2" titulo="VAS: Plan de Vigilancia, Acomodación y Seguridad") Corresponde a la gestión de salidas y entradas, manejo de filas y turnos, puestos de información, controles generales de acceso, si se presentan casos de emergencias, desarrollar el plan de evacuación y apoyar, si se requiere, los planes de primeros auxilios, seguridad de incendio.
           p(numero="3" titulo="Plan de Seguridad de Incendio") Es un módulo del plan de emergencia que instaura, a cargo del empresario, brigadas contra incendio, equipadas y entrenadas debidamente; estas brigadas actuarán en la primera respuesta para el control de incendios y emergencias relacionadas.
           p(numero="4" titulo="Plan de Evacuación") Son las acciones necesarias para detectar presencia de un riesgo que amenace la integridad de los asistentes y, como tal, comunicarles oportunamente la decisión de abandonar las instalaciones y facilitar su rápido traslado hasta un lugar que se considere seguro, desplazándose a través de lugares también seguros.
           p(numero="5" titulo="Plan de Atención Médica y Primeros Auxilios") Es un componente del Plan de Emergencia orientado a prestar a los afectados, atención prehospitalaria en el lugar de la actividad (ya sea en emergencia o desarrollo normal de la misma) y a posibilitar el traslado, de las que así lo requieran, a centros de atención especializada. En caso de Emergencia este plan opera mientras llega la ayuda institucional (principalmente secretaría de salud), y sirve de apoyo a esta cuando se haga presente en el lugar.
           p(numero="6" titulo="Plan de Información Pública") Apartado del Plan de Emergencia que tiene como objeto manejar y orientar la información ofrecida y entregada al público, tanto en la actividad como antes de ella y después de ella. En emergencia, consiste en comunicar y extender a allegados, familias, medios o entes interesados, la información sobre el estado y ubicación de personas (esto de manera coordinada, centralizada y oportuna).
           p(numero="7" titulo="Plan de Atención Temporal de los Afectados - Refugio") Plan de Emergencia cuya finalidad es facilitar, en un área específicamente asignada para ello, la asistencia a las personas que por sus condiciones o características (niños, adultos mayores, personas en condición de discapacidad, etc.) que a raíz de la situación de emergencia requieren asistencia temporal mientras sus familiares o allegados se hacen cargo de ellos.
-      .col-7.col-lg-5(data-aos="fade-left")
+      .col-6.col-lg-5(data-aos="fade-left")
         figure
-          img(src='@/assets/curso/tema2/img8.png')
+          img(src='@/assets/curso/tema2/img8.png', style="width: 350px").m-auto
     p.mb-5 Otros planes de acción, de suma importancia, son:
     TabsB.color-acento-contenido(data-aos="fade-down")
       .py-4.py-md-5(titulo="Plan de manejo de tránsito" :icono="require('@/assets/curso/tema2/img13.svg')")
@@ -358,7 +358,7 @@
       .py-4.py-md-5(titulo="Plan de integración del lugar" :icono="require('@/assets/curso/tema2/img13.svg')")
         .row
           .col-lg.mb-4.mb-lg-0
-            p En él se debe hacer especificación de tratamiento y zonas de ocupación exclusiva de niños, personas en situación de discapacidad o personas mayores (adulto mayor) durante la asistencia al lugar o actividad, antes de ella y después de ella. Así mismo, en caso de emergencia.
+            p El plan de integración del lugar corresponde a la articulación necesaria cuando la actividad se lleva a cabo en una zona de un sitio que cuente con planes de emergencia y contingencia.
           .col-lg-auto
             figure
               img(src='@/assets/curso/tema2/img33.jpg')

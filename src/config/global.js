@@ -146,11 +146,11 @@ export default {
         titulo: 'Referencias bibliográficas',
         nombreRuta: 'referencias',
       },
-      {
-        icono: 'fas fa-download',
-        titulo: 'Descargar material',
-        download: 'downloads/material.zip',
-      },
+      //{
+      //  icono: 'fas fa-download',
+      //  titulo: 'Descargar material',
+      //  download: 'downloads/material.zip',
+      //},
       {
         icono: 'far fa-registered',
         titulo: 'Créditos',
@@ -233,7 +233,7 @@ export default {
     {
       referencia:
         'Bisquerra, R. (s.f.). <em>Autonomía emocional</em>. Rafaelbisquerra. ',
-      link: 'http://www.rafaelbisquerra.com',
+      link: '',
     },
     {
       referencia:
@@ -243,8 +243,7 @@ export default {
     {
       referencia:
         'Consultoría & Servicio Andaluz de Empleo. (2018). <em>Materiales didácticos. Curso guía de ruta</em>. FIR. ',
-      link:
-        'http://www.juntadeandalucia.es/empleo/recursos/material_didactico/especialidades/materialdidactico_guia_de_ruta/GR/presen.htm',
+      link: '',
     },
     {
       referencia:
@@ -260,8 +259,7 @@ export default {
     {
       referencia:
         'Fundación Naturaleza y Patrimonio. (2020). Metodología no deje rastro. <em>“De todos depende preservar los espacios naturales”</em>. ',
-      link:
-        'https://naturalezaypatrimonio.com/metodologia-no-deje-rastro-de-todos-depende-preservar-los-espacios-naturales/',
+      link: '',
     },
     {
       referencia:
@@ -440,17 +438,17 @@ export default {
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Álvaro Andrés Angarita Ramirez',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
-        nombre: 'Daniel Felipe Varón Molina',
-        cargo: 'Validación y vinculación en plataforma LMS',
-        centro: 'Centro de Comercio y Servicios - Regional Tolima',
-      },
-      {
         nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Jhon Fredy Rodriguez Castiblanco',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Luis Fernando Amortegui Garcia',
         cargo: 'Validación y vinculación en plataforma LMS',
         centro: 'Centro de Comercio y Servicios - Regional Tolima',
       },

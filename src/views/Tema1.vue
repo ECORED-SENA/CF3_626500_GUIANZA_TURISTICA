@@ -13,8 +13,8 @@
       .col-lg-6(data-aos="fade-left")
         p Desde la óptica de la guianza turística, la comunicación debe entenderse como #[b poner en común o compartir información, historia, sucesos, orígenes]. Es decir, el comunicador no solo transmite palabras, también un estado de ánimo, un sentimiento, el asombro, características, crisis y otras situaciones, guardando las proporciones de cada una.
         p Se debe tener en cuenta que, desde el punto de vista de lo comunicativo, el guía turístico asume algunas responsabilidades que van más allá de solo acompañar un grupo; por ello se resaltan las siguientes:
-    .row.bg-color4(data-aos="fade-up")
-      .col-12.p-5
+    .row.bg-color4.mb-5(data-aos="fade-up")
+      .col-12.p-3.p-lg-5
         SlyderB(:datos="datosSlyder")
     p.mb-5 Como es sabido, la comunicación puede clasificarse en verbal, escrita, no verbal, entre otras; en la guianza turística estos tipos de comunicación adquieren mucha importancia, dados los impactos que, sobre los grupos de personas guiadas, pueden ocasionar:
     .row.justify-content-center.mb-5
@@ -146,7 +146,7 @@
     p.mb-5 En el siguiente elemento, se dan a conocer y analizar las técnicas de manejo, según las conductas de los usuarios:
     figure.mb-5(data-aos="fade-up")
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/OfredOc06_I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/FdDqDQ8i2Gk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .cajon.color-secundario.p-4.mb-5(data-aos="fade-left")
       p.mb-0 Existe una serie de conductas que los usuarios de los servicios turísticos podrían adoptar en determinadas situaciones, las cuales favorecen o perjudican el servicio mismo. Es clave que el guía de turismo potencie, permanentemente, su habilidad para identificar tales conductas o acciones y esté preparado para el adecuado tratamiento.
     p.mb-5 Se pueden catalogar algunos de los arquetipos comunes durante un servicio guiado, como se presentan en el siguiente recurso:
@@ -284,7 +284,7 @@ export default {
       {
         titulo: 'Transfiere la realidad pasada y presente',
         texto:
-          'El guía de turismo cumple la misma función que, antiguamente, tenían los sabios o ancianos de la comunidades: mostrar y propiciar la conservación de las tradiciones, el aprendizaje de los modos de trabajo, el significado de las celebraciones y las dinámicas de los ecosistemas.',
+          'El guía de turismo cumple la misma función que, antiguamente, tenían los sabios o ancianos de las comunidades: mostrar y propiciar la conservación de las tradiciones, el aprendizaje de los modos de trabajo, el significado de las celebraciones y las dinámicas de los ecosistemas.',
         imagen: require('@/assets/curso/tema1/img2.jpg'),
       },
       {
