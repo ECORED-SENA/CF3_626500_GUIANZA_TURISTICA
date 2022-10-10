@@ -39,7 +39,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Técnicas de manejo según conductas del usuario',
+            titulo: 'Técnicas de manejo según conductas de usuarios',
             hash: 't_1_1',
           },
           {
